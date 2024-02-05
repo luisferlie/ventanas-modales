@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "echo Hola",
-    "deploy":"rsync -avh --exclude=node_modules --exclude=.git -e 'ssh -p 22123' . luis@luis.certweb.infenlaces.com:./pig-game"
+    "deploy":"rsync -avh --exclude=node_modules --exclude=.git -e 'ssh -p 22123' . luis@luis.certweb.infenlaces.com:./luis_noproxy/ventanas-modales"
 
   },
   "devDependencies": {
